@@ -1,0 +1,109 @@
+Language model created by QuickLM on Fri Feb 16 08:01:52 EST 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 20 sentences and 23 words
+
+\data\
+ngram 1=23
+ngram 2=41
+ngram 3=21
+
+\1-grams:
+-0.7853 </s> -0.3010
+-0.7853 <s> -0.2233
+-2.0864 EIGHT -0.2233
+-2.0864 END -0.2233
+-2.0864 FIVE -0.2233
+-2.0864 FOUR -0.2233
+-2.0864 HELP -0.2233
+-2.0864 MIND -0.2233
+-2.0864 NEVER -0.2975
+-2.0864 NINE -0.2233
+-2.0864 ONE -0.2233
+-2.0864 PAUZE -0.2233
+-2.0864 PLAY -0.2233
+-2.0864 QUIT -0.2233
+-2.0864 REPEAT -0.2233
+-2.0864 SEVEN -0.2233
+-2.0864 SIX -0.2233
+-2.0864 START -0.2233
+-2.0864 STOP -0.2233
+-2.0864 TEN -0.2233
+-2.0864 THREE -0.2233
+-2.0864 TWO -0.2233
+-2.0864 . -0.2233
+
+\2-grams:
+-1.6021 <s> EIGHT 0.0000
+-1.6021 <s> END 0.0000
+-1.6021 <s> FIVE 0.0000
+-1.6021 <s> FOUR 0.0000
+-1.6021 <s> HELP 0.0000
+-1.6021 <s> NEVER 0.0000
+-1.6021 <s> NINE 0.0000
+-1.6021 <s> ONE 0.0000
+-1.6021 <s> PAUZE 0.0000
+-1.6021 <s> PLAY 0.0000
+-1.6021 <s> QUIT 0.0000
+-1.6021 <s> REPEAT 0.0000
+-1.6021 <s> SEVEN 0.0000
+-1.6021 <s> SIX 0.0000
+-1.6021 <s> START 0.0000
+-1.6021 <s> STOP 0.0000
+-1.6021 <s> TEN 0.0000
+-1.6021 <s> THREE 0.0000
+-1.6021 <s> TWO 0.0000
+-1.6021 <s> . 0.0000
+-0.3010 EIGHT </s> -0.3010
+-0.3010 END </s> -0.3010
+-0.3010 FIVE </s> -0.3010
+-0.3010 FOUR </s> -0.3010
+-0.3010 HELP </s> -0.3010
+-0.3010 MIND </s> -0.3010
+-0.3010 NEVER MIND 0.0000
+-0.3010 NINE </s> -0.3010
+-0.3010 ONE </s> -0.3010
+-0.3010 PAUZE </s> -0.3010
+-0.3010 PLAY </s> -0.3010
+-0.3010 QUIT </s> -0.3010
+-0.3010 REPEAT </s> -0.3010
+-0.3010 SEVEN </s> -0.3010
+-0.3010 SIX </s> -0.3010
+-0.3010 START </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 TEN </s> -0.3010
+-0.3010 THREE </s> -0.3010
+-0.3010 TWO </s> -0.3010
+-0.3010 . </s> -0.3010
+
+\3-grams:
+-0.3010 <s> EIGHT </s>
+-0.3010 <s> END </s>
+-0.3010 <s> FIVE </s>
+-0.3010 <s> FOUR </s>
+-0.3010 <s> HELP </s>
+-0.3010 <s> NEVER MIND
+-0.3010 <s> NINE </s>
+-0.3010 <s> ONE </s>
+-0.3010 <s> PAUZE </s>
+-0.3010 <s> PLAY </s>
+-0.3010 <s> QUIT </s>
+-0.3010 <s> REPEAT </s>
+-0.3010 <s> SEVEN </s>
+-0.3010 <s> SIX </s>
+-0.3010 <s> START </s>
+-0.3010 <s> STOP </s>
+-0.3010 <s> TEN </s>
+-0.3010 <s> THREE </s>
+-0.3010 <s> TWO </s>
+-0.3010 <s> . </s>
+-0.3010 NEVER MIND </s>
+
+\end\
+
