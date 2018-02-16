@@ -23,6 +23,9 @@ pauze
 end
 start
 quit
-never mind
+never
+mind
 help
 play
+yes
+no
