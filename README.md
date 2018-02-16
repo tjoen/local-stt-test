@@ -7,6 +7,7 @@ testing pocketsphinx local-tts with limited vocab on mark1
 
 
 # test words for skill
+These were converted using http://www.speech.cs.cmu.edu/tools/lmtool-new.html
 
 one 
 two 
