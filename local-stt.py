@@ -4,8 +4,7 @@ from pocketsphinx.pocketsphinx import *
 from sphinxbase.sphinxbase import *
 
 
-# stop mycroft speech and audio service
-# sudo service mycroft-audio stop
+# stop mycroft speech service
 # sudo service mycroft-speech-client stop
 
 
