@@ -1,11 +1,18 @@
 # local-stt-test
 testing pocketsphinx local-tts with limited vocab on mark1
+This seem to work great for english, and ok for dutch, mailnly because the model is not great.
+The speed is great though.
 
-## stop mycroft speech-client first
+## stop mycroft speech-client before testing first
 - sudo service mycroft-speech-client stop
 
+in a skill you can also use the naptime. 
+
 # test words for skill
-These were converted using http://www.speech.cs.cmu.edu/tools/lmtool-new.html
+These english words were converted using http://www.speech.cs.cmu.edu/tools/lmtool-new.html
+The dutch model has a simple bash tool, that generates a custom lm and dict, from a file called words.txt
+Just edit the wordlist and use the provided models, which are not great, but do work most of the time. 
+
 
 one 
 two 
