@@ -1,7 +1,7 @@
 # local-stt-test
 testing pocketsphinx local-tts with limited vocab on mark1
-This seem to work great for english, and ok for dutch, mainly because the model is not great.
-The speed is great though.
+This seems to work great for english, and ok for dutch, mainly because the model is not vey good.
+The speed is good though.
 
 ## stop mycroft speech-client before testing first
 - sudo service mycroft-speech-client stop
